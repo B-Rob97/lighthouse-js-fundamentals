@@ -39,3 +39,19 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+/* Brett/Roberts/BrettRoberts!
+let x = 1
+while (x <= 100) {
+  if (x % 3 === 0) {
+    console.log("BRETT");
+  } else if (x % 5 === 0) {
+    console.log("ROBERTS");
+  } else if (x % 7 === 0) {
+    console.log("BRETT ROBERTS");
+  } else {
+    console.log(x)
+  }
+  x = x + 1
+} */
+
