@@ -29,3 +29,10 @@ console.log("Order total is: $", total);
 -When reverse iteration is necessary.
 -Compatibility requirements with older JavaScript environments lacking ES6 support.
 -Performance-critical scenarios with large datasets where overhead should be minimized. */
+
+function isThisWorking(input) {
+  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+  return "Returning: I am returning this string!";
+}
+
+isThisWorking(3);
